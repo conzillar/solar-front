@@ -1,0 +1,1294 @@
+* {
+    padding: 0;
+    margin: 0;
+    @import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+}
+
+.container-fluid {
+    background-color: #fff;
+}
+
+.succes {
+    /* position: absolute; */
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/solar23.jpg);
+    animation: led;
+}
+
+/* .success{
+    border: 1px solid red;
+ } */
+
+.brain {
+    position: absolute;
+}
+
+.succes h1 {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 2.5px rgb(90, 88, 88);
+    font-size: 10rem;
+    font-family: sans-serif;
+    font-weight: 1000;
+    padding: 6rem 0 0 1rem;
+    animation: dave 3s ease-in;
+}
+
+@keyframes dave {
+    0% {
+        margin-top: -10%;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+.succes h2 {
+    color: rgb(103, 105, 108);
+    position: absolute;
+    padding: 14.5rem 0 0 3rem;
+    font-size: 3rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    animation: bae 3s ease-in-out;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes bae {
+    0% {
+        margin-top: -10%;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+/* .succes h3{
+    color:  rgb(103, 105, 108);
+    margin-top: 17.6rem;
+    margin-left: 3rem;
+    padding: 17.6rem 0 0 3rem;
+    font-weight: 550;
+    font-size: 3rem;
+    font-family: sans-serif;
+    animation: bby 6s ease-in;
+    animation-delay: calc(.2s * var(--i));
+} */
+/* @keyframes bby{
+    0%{
+        margin-top:-10% ;
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+        margin-top: 0%;
+    }
+
+} */
+
+.succes h3 {
+    position: relative;
+    color: rgb(231, 231, 220);
+    padding: 22.6rem 0 0 0.1rem;
+    margin-left: 3rem;
+    margin-top: -2rem;
+    font-family: sans-serif;
+    font-family: 300;
+    font-size: 1.3rem;
+    animation: bby 5.5s ease-in;
+    /* animation-delay: calc(.2s *  var(--i)); */
+}
+
+@keyframes bby {
+    0% {
+        margin-top: 5%;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(34, 196, 9);
+    width: 12%;
+    height: 50px;
+    border: none;
+    margin-top: 27rem;
+    margin-left: 3rem;
+    transition: 0.2s ease-in;
+}
+
+.button:hover {
+    /* transition: 1s ease-in; */
+    background-color: #f85408;
+}
+
+.tel {
+    margin-left: 1rem;
+    color: rgb(190, 185, 185);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in;
+}
+
+.tel:hover {
+    /* transition:2s ease-in ; */
+    color: #f85408;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* .myone{
+    display: flex;
+    position:absolute;
+    background-color: rgb(34, 34, 44);
+    width: 90.4%;
+    height: 220px;
+    margin-top: -4rem;
+}
+.the{
+    width:25%;
+    height: 220px;
+    border: 1px solid red;
+    background-image: url(../assets/img/solar15.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.get{
+    width: 5%;
+    height: 90px;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    border: 1px solid red;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/sos1.png);
+}
+.gat h1{
+    color: #f85408;
+    font-size: 1.9rem;
+    font-weight: 950;
+    margin-left:2rem ;
+    margin-top:3.8rem ;
+}
+.gat h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    font-family: sans-serif;
+}
+.love{
+    width: 5%;
+    height: 90px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 1px solid red;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/sos2.png);
+}
+.king h1{
+    color: #f85408;
+    font-size: 1.9rem;
+    font-weight: 950;
+    margin-left:2rem ;
+    margin-top:3.8rem ; 
+}
+.king h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    font-family: sans-serif;
+}
+.wify{
+    width: 5%;
+    height: 90px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 1px solid red;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/sos3.png); 
+}
+.vctor{
+    flex-direction: column;
+}
+.victor h1{
+    color: #f85408;
+    font-size: 1.9rem;
+    font-weight: 950;
+    margin-left:2rem ;
+    margin-top:3.8rem ; 
+}
+.victor h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    font-family: sans-serif;
+}
+.victor h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    font-family: sans-serif;
+}
+.joy{
+    width: 47%;
+    height: 500px;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    border: 1px solid red;
+    background-image: url(../assets/img/solar18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bad{
+    width: 13%;
+    height: 150px;
+    margin-top: 25rem;
+    margin-left: -4rem;
+    border: 1px solid red;
+    position: absolute;
+    background-image: url(../assets/img/so1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sad{
+    width: 50%;
+    height: 500px;
+    border: 1px solid red;
+}
+.sad h1{
+    color: transparent;
+    -webkit-text-stroke:1px rgb(191, 186, 186) ;
+    text-shadow: -2px -2px 0 black;
+    font-family: sans-serif;
+    font-size: 8.5rem;
+    font-weight: 800;
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+.sad h2{
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 5.8rem;
+    color:rgb(31, 168, 10) ;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.sad h3{
+    position: absolute;
+    margin-top: -3.9rem;
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(63, 61, 61);
+}
+.sad h4{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    color: rgb(108, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+.hat{
+    display: flex;
+    position: absolute;
+    width: 12%;
+    height: 155px;
+    margin-left: 3rem;
+    margin-top: -1.3rem;
+    border: 1px solid rgb(196, 188, 188);
+    border-radius: 150px;
+}
+.help{
+    width: 39%;
+    height: 62px;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(247, 129, 83);
+    background-color: #f86723;
+    border: 1px solid red;
+}
+.sad h5{
+    font-size: 0.7rem;
+    font-weight: 950;
+    margin-left: 10.8rem;
+    margin-top: 3.7rem;
+    font-family: sans-serif;
+}
+.maintain{
+    width: 50%;
+    height: 800px;
+    margin-left: 2rem;
+    border: 1px solid red;
+}
+.maintain h1{
+    font-size: 8.5rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: transparent;
+    margin-left: 1rem ;
+    -webkit-text-stroke: 1.7px  rgb(211, 209, 209);
+}
+.maintain h3{
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 3rem;
+    color:rgb(31, 168, 10) ;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.maintain h2{
+    position: absolute;
+    margin-top: -3.9rem;
+    margin-left: 3.3rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+}
+.why{
+    width: 75%;
+    height: 160px;
+    margin-top: 5rem;
+    margin-left: 3.2rem;
+    border: 1px solid red;
+}
+.why:hover{
+    background-color: #fff;
+    box-shadow: 12px 10px 23px 1px rgb(198, 198, 198);
+}
+.why h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-left: 6rem;
+}
+.why h4{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: -1.4rem;
+    margin-left: 6rem;
+    line-height: 33px;
+}
+.that{
+    width: 75%;
+    height: 160px;
+    margin-top: 0.5rem;
+    margin-left: 3.2rem;
+    border: 1px solid rgb(248, 248, 248);
+}
+.that:hover{
+    background-color: #fff;
+    box-shadow: 12px 10px 23px 1px rgb(198, 198, 198);
+}
+.that h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-left: 6rem;
+}
+.that h4{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: -1.4rem;
+    margin-left: 6rem;
+    line-height: 33px;
+}
+.cat{
+    width: 75%;
+    height: 177px;
+    margin-top: 0.5rem;
+    margin-left: 3.2rem;
+}
+.cat:hover{
+    background-color: #fff;
+    box-shadow: 12px 10px 23px 1px rgb(198, 198, 198); 
+}
+.cat h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-left: 6rem;
+} 
+.cat h4{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: -1.4rem;
+    margin-left: 6rem;
+    line-height: 33px; 
+}
+.lane{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 800px;
+    border: 1px solid red;
+}
+.mim{
+    width: 42%;
+    height: 290px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 1px solid red;
+    background-image: url(../assets/img/solar2\ back.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vak{
+    background-image: linear-gradient(rgb(222, 109, 16),rgb(255, 81, 0));
+    width: 100%;
+    height: 290px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vak h2{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    color: #ffffff;
+}
+.horizontal-line{
+    width: 19%;
+    height:2px;
+    background-color: #fff;
+    margin-top: 4rem;
+    margin-left: -9.5rem;
+}
+.sic{
+    width: 20%;
+    height: 50px;
+    margin-left: -9rem;
+    margin-top:1rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(88, 87, 86);
+    background-color: #ffffff;
+}
+.kika{
+    width: 42%;
+    height: 250px;
+    margin-top: 5.5rem;
+    border: 1px solid red;
+    background-image: url(../assets/img/solar30.jpg);
+    background-position:center ;
+    background-size: cover;
+}
+.vick{
+    width: 42%;
+    height: 250px;
+    margin-top: 21rem;
+    margin-left: -30.6rem;
+    border: 1px solid red;
+    background-image: url(../assets/img/dan9.jpg);
+    background-position:center ;
+    background-size: cover;
+}
+.hon{
+    width: 42%;
+    height: 290px;
+    margin-top: 21rem;
+    margin-left: -0.1rem;
+    border: 1px solid red;
+    background-image: url(../assets/img/solar6.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zak{
+    background-image: linear-gradient(rgb(101, 163, 60),rgb(101, 163, 60));
+    width: 100%;
+    height: 290px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zak h2{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 1rem;
+    margin-left: -3rem;
+    color: #ffffff;
+}
+.horizontal-line{
+    width: 19%;
+    height:2px;
+    background-color: #fff;
+    margin-top: 4rem;
+    margin-left: -9.5rem;
+}
+.kic{
+    width: 20%;
+    height: 50px;
+    margin-left: -9rem;
+    margin-top:1rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(88, 87, 86);
+    background-color: #ffffff;
+} */
+form {
+    visibility: hidden;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+
+}
+
+nav {
+    position: relative;
+}
+
+.form-control {
+    width: 45%;
+    height: 50px;
+}
+
+.btn {
+    color: #fff;
+    width: 25%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: #a08d84;
+    color: #fff;
+    border: 1px solid #a08d84;
+}
+
+.var {
+    color: #f2eeed;
+}
+
+/* .var:hover{
+    color: #a08d84;
+} */
+
+.container-fluid {
+    position: absolute;
+}
+
+.myone {
+    width: 95%;
+    height: 200px;
+    display: flex;
+    background-color: #1c1b1a;
+    margin-left: 4.2rem;
+    /* position: relative;  */
+    margin-top: -6rem;
+    /* border: 1px solid red; */
+}
+
+.i-image {
+    width: 100%;
+    height: 200px;
+    /* margin-left: 3rem; */
+}
+
+.b-image {
+    width: 25%;
+    height: 70px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.ben {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.ten h2 {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 1.5rem;
+    color: #f85408;
+}
+
+.ten h3 {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+.theone {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+.c-image {
+    width: 25%;
+    height: 70px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.bet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.tent h2 {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 1.5rem;
+    color: #f85408;
+}
+
+.tent h3 {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+.d-image {
+    width: 25%;
+    height: 70px;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.bent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.tea h2 {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 1.5rem;
+    color: #f85408;
+}
+
+.tea h3 {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+
+.success {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.e-money {
+    width: 100%;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    height: 600px;
+
+}
+
+.image {
+    width: 80%;
+    height: 450px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.n-image {
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+
+.shake h1 {
+    font-size: 9rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left: 3rem;
+    margin-top: -1rem;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(200, 194, 194);
+}
+
+.hat {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    height: 155px;
+    margin-left: 3rem;
+    margin-top: -1.3rem;
+    border: 1px solid rgb(196, 188, 188);
+    border-radius: 150px;
+
+}
+
+.help {
+    width: 39%;
+    height: 62px;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(247, 129, 83);
+    background-color: #f86723;
+    /* border: 1px solid red; */
+
+}
+
+.shake h2 {
+    /* font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    color: ; */
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 5.8rem;
+    color: rgb(31, 168, 10);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+
+}
+
+.shake h3 {
+    position: absolute;
+    margin-top: -3.9rem;
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(63, 61, 61);
+
+}
+
+.shake h4 {
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    color: rgb(108, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.shake h5 {
+    font-size: 0.7rem;
+    font-weight: 950;
+    margin-left: 10.8rem;
+    margin-top: 3.7rem;
+    font-family: sans-serif;
+
+}
+
+.mywife {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+
+.mywife h1 {
+    font-size: 8rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(200, 194, 194);
+}
+
+.mywife h2 {
+    font-size: 1.1rem;
+    color: rgb(31, 168, 10);
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 5.5rem;
+    margin-top: -5.7rem;
+}
+
+.mywife h3 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 6rem;
+    margin-top: -3.5rem;
+    position: absolute;
+
+}
+
+.think {
+    width: 76%;
+    height: 150px;
+    /* display: flex; */
+    margin-top: 4rem;
+    margin-left: 5.7rem;
+    border: 0.1px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+.think:hover {
+    background-color: #ffffff;
+    box-shadow: 12px 10px 35px 1px rgb(227, 225, 225);
+}
+
+.think:hover .you {
+    background-color: #FF7029;
+    box-shadow: 1px 3px 28px #f5b083;
+    color: #f2eeed;
+}
+
+.think:hover i {
+    color: #f2eeed;
+}
+
+.think h2 {
+    color: #353534;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-left: 6rem;
+    margin-top: -3rem;
+}
+
+.think h4 {
+    color: #84807f;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: -1rem;
+    margin-left: 6rem;
+    line-height: 33px;
+}
+
+.you {
+    width: 8%;
+    height: 38px;
+    background-color: #ffffff;
+    /* padding-top: 4rem; */
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+    box-shadow: 5px 3px 20px rgb(198, 198, 198);
+    /* border: 1px solid red; */
+}
+
+i {
+    color: #f83e10;
+    align-self: center;
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.ran {
+    width: 38%;
+    height: 300px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    /* border: 1px solid red; */
+    background-image: url(../assets/img/solar2\ back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jak {
+    background-image: linear-gradient(rgb(222, 109, 16), rgb(255, 81, 0));
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jak h2 {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    color: #ffffff;
+}
+
+.horizontal-line {
+    width: 19%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-left: -9.5rem;
+}
+
+.sic {
+    width: 20%;
+    height: 50px;
+    margin-left: -9rem;
+    margin-top: 9rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(88, 87, 86);
+    background-color: #ffffff;
+}
+
+.sic i {
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    font-size: 1.4rem;
+    animation: sok 0.8 linear infinite;
+}
+
+.thank {
+    display: flex;
+}
+
+.sic:hover i {
+    /* transform: rotateX('deg 180'); */
+    /* animation: sok 0.8 ease-in; */
+}
+
+.kika {
+    width: 38%;
+    height: 270px;
+    margin-top: 4.9rem;
+    /* border: 1px solid red; */
+    background-image: url(../assets/img/solar30.jpg);
+    background-position: center;
+    background-size: cover;
+    /* object-fit: cover; */
+}
+
+.vick {
+    width: 38%;
+    height: 270px;
+    margin-top: 21.7rem;
+    margin-left: -30.8rem;
+    /* border: 1px solid red; */
+    background-image: url(../assets/img/dan9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hon {
+    width: 38%;
+    height: 300px;
+    margin-top: 21.8rem;
+    margin-left: -0.1rem;
+    /* border: 1px solid red; */
+    background-image: url(../assets/img/solar6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.zak {
+    background-image: linear-gradient(rgb(101, 163, 60), rgb(101, 163, 60));
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zak h2 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 1rem;
+    margin-left: -3rem;
+    color: #ffffff;
+}
+
+.horizontal-line {
+    width: 19%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-left: -9.5rem;
+}
+
+.kic {
+    width: 20%;
+    height: 50px;
+    margin-left: -9rem;
+    margin-top: 7rem;
+    border-radius: 30px;
+    box-shadow: 3px 4px 18px 3px rgb(88, 87, 86);
+    background-color: #ffffff;
+}
+
+.cat{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.me-cat{
+    width: 90%;
+    height: 200px;
+    background-color: #1c1b1a;
+    transition: 0.3s ease-in;
+    /* border: 1px solid red; */
+}
+.me-cat:hover{
+    background-color: #FF7029;
+}
+.m-cat{
+    padding-top: 4.6rem;
+    padding-left: 3rem;
+    /* margin-top: 4.6rem ; */
+    /* margin-left: 3rem; */
+}
+@keyframes sok {
+    0% {
+        transform-origin: rotate(180deg);
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /* *{
+        margin: 0%;
+        overflow: hidden;
+    } */
+    .succes {
+        width: 100%;
+        height: 300px;
+        font-weight: 550;
+        -webkit-text-stroke: 4px solid rgb(90, 88, 88);
+
+    }
+
+    form {
+        visibility: visible;
+    }
+
+    .brain h1 {
+        font-size: 4rem;
+        padding: 3rem 1rem;
+    }
+
+    .brain h2 {
+        font-size: 1.5rem;
+        font-weight: 750;
+        padding: 6.3rem 2rem;
+    }
+
+    .brain h3 {
+        font-size: 0.6rem;
+        font-weight: 700;
+        /* padding: 5rem 0; */
+        margin-left: 2rem;
+        padding-top: 11rem;
+        display: flex;
+    }
+
+    .button {
+        width: 30%;
+        height: 45px;
+        margin-top: 14rem;
+        margin-left: 2rem;
+    }
+
+    .tel {
+        margin-top: -2rem;
+        /* padding-top: 10rem; */
+        visibility: hidden;
+    }
+
+    .fa-paper-plane {
+        visibility: hidden;
+        margin-top: -19rem;
+    }
+
+    .myone {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        margin-left: -0.1rem;
+        flex-direction: column;
+    }
+
+    .success {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .e-money{
+        height: 700px;
+    } */
+    .image {
+        width: 85%;
+        height: 350px;
+        margin-left: 3rem;
+    }
+
+    .n-image {
+        width: 20%;
+        height: 80px;
+        margin-left: 1rem;
+    }
+
+    .shake {
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -13rem;
+    }
+
+    .shake h1 {
+        font-size: 4.4rem;
+        margin-left: 1rem;
+    }
+
+    .shake h2 {
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-top: -3.7rem;
+    }
+
+    .shake h3 {
+        font-size: 1.7rem;
+        margin-left: 3rem;
+        margin-top: -2.6rem;
+    }
+
+    .shake h4 {
+        font-size: 0.7rem;
+        line-height: 21px;
+        font-weight: 600;
+        margin-left: 2.7rem;
+        margin-top: 4rem;
+    }
+
+    .shake h5 {
+        font-size: 0.6rem;
+        margin-left: 7.8rem;
+    }
+
+    .hat {
+        width: 30%;
+        height: 100px;
+        margin-left: 1rem;
+    }
+
+    .help {
+        width: 40%;
+        height: 60px;
+        margin-left: 2.6rem;
+        margin-top: 2.5rem;
+    }
+
+    .fa-arrow-down {
+        margin-left: -1rem;
+    }
+    .cat{
+        /* width: 100%; */
+        /* height: 300px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .me-cat{
+        width: 100%;
+        height: 600px;
+        /* margin-top: 2rem; */
+        align-items: center;
+    }
+    .m-cat{
+        padding-left:10rem ;
+        padding-top: 1rem;
+        /* align-items: center; */
+    }
+
+    /* .b-image{
+        width: 15%;
+        height: 70px;
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+    }
+    .ten{
+        margin-top: -1.7rem;
+        margin-left: 2rem;
+    } */
+
+
+}
+
+@media (min-width:600px) and (max-width:1240px) {
+    form {
+        visibility: hidden;
+    }
+
+    .myone {
+        display: flex;
+    }
+
+    .theone {
+        display: flex;
+        flex-direction: unset;
+    }
+}
